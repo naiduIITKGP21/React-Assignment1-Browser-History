@@ -14,7 +14,7 @@ const HistoryItem = props => {
       <div className="bh-history-item-container">
         <div className="bh-history-item">
           <img className="bh-domain-logo" src={logoUrl} alt="domain logo" />
-          <div>
+          <div className="bh-title-container">
             <p className="bh-title">{title}</p>
             <p className="bh-domain-url">{domainUrl}</p>
           </div>

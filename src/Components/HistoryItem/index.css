@@ -1,13 +1,16 @@
 .bh-each-list-container {
   margin-bottom: 20px;
 }
+
 .bh-time {
   font-size: 17px;
   color: #64748b;
+  width: 100px;
 }
 .bh-history-item-container {
   display: flex;
   justify-content: space-between;
+  width: 100%;
 }
 .bh-history-item {
   display: flex;
@@ -35,4 +38,34 @@
   width: 12px;
   height: 12px;
   padding: 3px;
+}
+
+@media screen and (min-width: 768px) {
+  .bh-each-list-container {
+    display: flex;
+    align-items: center;
+  }
+  .bh-time {
+    margin-right: 30px;
+  }
+  .bh-title-container {
+    display: flex;
+    align-items: center;
+  }
+  .bh-title {
+    margin-top: 5px;
+    margin-bottom: 0;
+    padding: 5px;
+  }
+  .bh-domain-url {
+    margin-top: 5px;
+    margin-bottom: 0;
+    padding: 5px;
+  }
+  .bh-each-list-container {
+    margin-bottom: 0px;
+  }
+  .bh-history-item-container {
+    margin-bottom: 5px;
+  }
 }

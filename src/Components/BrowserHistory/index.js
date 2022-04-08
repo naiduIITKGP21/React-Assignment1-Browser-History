@@ -135,18 +135,20 @@ class BrowserHistory extends Component {
             src="https://assets.ccbp.in/frontend/react-js/history-website-logo-img.png"
             alt="app logo"
           />
-          <div className="bh-search-container">
-            <img
-              className="bh-search-icon"
-              src="https://assets.ccbp.in/frontend/react-js/search-img.png"
-              alt="search"
-            />
-            <input
-              className="bh-input-search"
-              onChange={this.browseHistory}
-              type="search"
-              placeholder="Search History"
-            />
+          <div className="outer-adjust">
+            <div className="bh-search-container">
+              <img
+                className="bh-search-icon"
+                src="https://assets.ccbp.in/frontend/react-js/search-img.png"
+                alt="search"
+              />
+              <input
+                className="bh-input-search"
+                onChange={this.browseHistory}
+                type="search"
+                placeholder="Search History"
+              />
+            </div>
           </div>
         </div>
         {this.searchResults(searchResultsArray)}
