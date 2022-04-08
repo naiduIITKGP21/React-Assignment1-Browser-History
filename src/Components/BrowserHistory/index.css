@@ -1,0 +1,55 @@
+.empty-history-container {
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+.no-history-msg {
+  font-size: 23px;
+  color: #64748b;
+  font-family: 'Roboto';
+}
+.bh-bg {
+  font-family: 'Roboto';
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+.bh-browser-bar {
+  background-color: #3367d6;
+  width: 100%;
+  padding: 10px 15px 10px 15px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.bh-app-logo {
+  width: 100px;
+  height: 20px;
+}
+.bh-search-container {
+  display: flex;
+}
+.bh-search-icon {
+  background-color: #2850a7;
+  border: 1px solid #6697ff;
+  padding: 5px;
+}
+.bh-input-search {
+  background-color: #2850a7;
+  border: 1px solid #6697ff;
+  padding-left: 10px;
+  color: #f8fafc;
+  outline: none;
+}
+.bh-history-list-container {
+  border-radius: 8px;
+  width: 80%;
+  align-self: center;
+  margin-top: 30px;
+  box-shadow: 0px 10px 15px 5px #ececec;
+  padding: 15px 30px 30px 25px;
+  list-style-type: none;
+}

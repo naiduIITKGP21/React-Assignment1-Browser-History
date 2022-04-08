@@ -1,0 +1,38 @@
+.bh-each-list-container {
+  margin-bottom: 20px;
+}
+.bh-time {
+  font-size: 17px;
+  color: #64748b;
+}
+.bh-history-item-container {
+  display: flex;
+  justify-content: space-between;
+}
+.bh-history-item {
+  display: flex;
+}
+.bh-domain-logo {
+  margin-right: 10px;
+  width: 25px;
+  height: 25px;
+  margin-top: 10px;
+}
+
+.bh-title {
+  font-size: 14px;
+  color: #475569;
+  margin-bottom: 0;
+}
+.bh-domain-url {
+  font-size: 14px;
+  color: #64748b;
+  margin-top: 0;
+}
+.bh-delete-button {
+  background-color: transparent;
+  border: none;
+  width: 12px;
+  height: 12px;
+  padding: 3px;
+}
